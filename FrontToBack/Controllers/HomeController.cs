@@ -17,9 +17,6 @@ namespace FrontToBack.Controllers
 
         public IActionResult Index()
         {
-            var students = _dbContext.Students.ToList();
-            var teachers = _dbContext.Teachers.ToList();
-
             return View();
         }
 
